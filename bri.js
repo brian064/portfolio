@@ -161,10 +161,10 @@ function parallaxMain() {
 
   //Work Section Thumbnail Sizing Functions
 
-  var imgHeight = $(".imageHolder").width();
+  /*var imgHeight = $(".imageHolder").width();
   var imgWidth = $(".imageHolder").height();
 
-	$(".imageHolder").css({"height" : imgHeight})
+	$(".imageHolder").css({"height" : imgHeight})*/
 
 	// adjust size of thumbnails
 	$(window).resize(function() {
