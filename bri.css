@@ -64,12 +64,12 @@ a:hover {
   display: block;
   text-align: center;
   color: #262626;
-  height: 95vh;
   font-family: "Quicksand";
   /*background-color: #ffffe6;*/
   background-image: url("manila.jpg");
   background-position: center;
   background-size: cover;
+  padding-bottom: 100px;
   /*background: linear-gradient(to top right, #fefefe, #fff);*/
 }
 
@@ -95,7 +95,7 @@ a:hover {
 
 .down {
   display: block;
-  position: absolute;
+  position: relative;
   width: 60px;
   margin-left: 50%;
   left: -30px;
