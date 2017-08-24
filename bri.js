@@ -207,6 +207,18 @@ function parallaxMain() {
     $(".byui .dimmer").toggleClass("dimmer-visible");
   });
 
+    //beachjam
+  $(".beachjam").mouseover(function () {
+    $(".beachjam .caption").toggleClass("caption-visible");
+    $(".beachjam .dimmer").toggleClass("dimmer-visible");
+  });
+
+  $(".beachjam").mouseout(function () {
+    $(".beachjam .caption").toggleClass("caption-visible");
+    $(".beachjam .dimmer").toggleClass("dimmer-visible");
+  });
+
+    //coming soon
   $(".mnlcity").mouseover(function () {
     $(".mnlcity .caption").toggleClass("caption-visible");
     $(".mnlcity .dimmer").toggleClass("dimmer-visible");

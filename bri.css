@@ -208,6 +208,10 @@ nav li a:focus {
   background-image: url("byui.png");
 }
 
+.beachjam {
+  background-image: url("beachjam.png");
+}
+
 .mnlcity {
   background-image: url("manila.jpg");
 }
