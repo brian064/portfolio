@@ -39,7 +39,6 @@ nav li a:focus {
 .nav li a:hover {
   background-color: rgba(0,0,0,0);
   opacity: 1.0;
-  text-decoration: line-through;
 }
 
 .nav li a {
