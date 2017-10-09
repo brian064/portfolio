@@ -9,44 +9,44 @@ function parallaxMain() {
 
   // back to top animation by clicking topButton
   $(".topButton").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop:0
     }, 1300)
   })
 
   // Nav redirect animations
   $(".workBtn").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop: $(".workSec").offset().top
     }, 1300)
   })
 
   $(".workBtn1").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop: $(".workSec").offset().top
     }, 1300)
   })
 
   $(".aboutBtn").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop: $(".aboutSec").offset().top
     }, 1300)
   })
 
   $(".aboutBtn1").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop: $(".aboutSec").offset().top
     }, 1300)
   })
 
   $(".conBtn").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop: $(".conSec").offset().top
     }, 1300)
   })
 
   $(".conBtn1").click(function() {
-    $("body").animate({
+    $("html, body").animate({
       scrollTop: $(".conSec").offset().top
     }, 1300)
   })
