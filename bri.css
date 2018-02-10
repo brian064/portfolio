@@ -363,7 +363,7 @@ nav li a:focus {
 @media screen and (max-width: 768px) {
 
   .welcomeSec h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .welcomeSec h2 {

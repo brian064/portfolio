@@ -18,37 +18,37 @@ function parallaxMain() {
   $(".workBtn").click(function() {
     $("html, body").animate({
       scrollTop: $(".workSec").offset().top
-    }, 1300)
+    }, 1000)
   })
 
   $(".workBtn1").click(function() {
     $("html, body").animate({
       scrollTop: $(".workSec").offset().top
-    }, 1300)
+    }, 1000)
   })
 
   $(".aboutBtn").click(function() {
     $("html, body").animate({
       scrollTop: $(".aboutSec").offset().top
-    }, 1300)
+    }, 1000)
   })
 
   $(".aboutBtn1").click(function() {
     $("html, body").animate({
       scrollTop: $(".aboutSec").offset().top
-    }, 1300)
+    }, 1000)
   })
 
   $(".conBtn").click(function() {
     $("html, body").animate({
       scrollTop: $(".conSec").offset().top
-    }, 1300)
+    }, 1000)
   })
 
   $(".conBtn1").click(function() {
     $("html, body").animate({
       scrollTop: $(".conSec").offset().top
-    }, 1300)
+    }, 1000)
   })
 
   //change nav colors for workSec
