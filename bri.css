@@ -303,7 +303,7 @@ nav li a:focus {
   text-transform: uppercase;
   padding: 5px;
   border-left: 3px solid white;
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
   width: 300px;
 }
 
