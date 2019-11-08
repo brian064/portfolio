@@ -38,6 +38,38 @@
 		<div class="workSec">
 
 			<div class="container secTitle">
+				<h1>UI/UX Design Work<br/> <small>Tell me what you think.</small></h1>
+			</div>
+
+			<div class="myWork container">
+				<div class="row">
+
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 container">
+						<div class="imageHolder mnlcity">
+							<a href=""><h2 class="caption">coming soon</h2></a>
+
+
+							<div class="dimmer">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 container">
+						<div class="imageHolder mnlcity">
+							<a href=""><h2 class="caption">coming soon</h2></a>
+
+
+							<div class="dimmer">
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<div class="container secTitle">
 				<h1>Personal Projects<br/> <small>Take a look.</small></h1>
 			</div>
 
@@ -107,18 +139,21 @@
 		<div class="conSec">
 			<div class="container secTitle3">
 				<h1>Keep In Touch.<br/><small>I'm one click away.</small></h1>
-				<a target="_blank" href="http://twitter.com/ItsBrianAguilar"><h2><small>twitter</small>  @ItsBrianAguilar</h2></a>
-
-				<a target="_blank" href="https://www.instagram.com/b_9797_/"><h2>@b_9797_  <small>Instagram</small></h2></a>
-
 				<a target="_blank" href="https://github.com/brian064"><h2><small>Github</small>  Brian Aguilar</h2></a>
+
+				<a target="_blank" href="https://www.instagram.com/brian_064/"><h2>@brian_064  <small>Instagram</small></h2></a>
+
 			</div>
 		</div>
 
 		<div class="footer">
 			<div class="container footCon">
 				<img class="img-responsive topButton" src="bybri3.png"/>
-				2017
+				<span id="year"></span>
+				<script>
+					console.log((new Date()).getFullYear());
+					document.getElementById("year").innerHTML = (new Date()).getFullYear();
+				</script>
 			</div>
 		</div>
 
