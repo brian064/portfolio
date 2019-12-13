@@ -6,6 +6,47 @@ function parallaxMain() {
   $("body").hide();
   $("body").fadeIn(2000);
 
+  /***********************************************
+  * INFO BOX CONTROL CENTER
+  ***********************************************/
+  $(".infoBoxSec").hide();
+
+  $(".inoverInfo").hide();
+  $(".byuiInfo").hide();
+  $(".beachInfo").hide();
+
+  $(".inover").click(function() {
+    $(".infoBoxSec").fadeIn();
+
+    $(".inoverInfo").show();
+    $(".byuiInfo").hide();
+    $(".beachInfo").hide();
+  })
+
+  $(".byui").click(function() {
+    $(".infoBoxSec").fadeIn();
+
+    $(".inoverInfo").hide();
+    $(".byuiInfo").show();
+    $(".beachInfo").hide();
+  })
+
+  $(".beachjam").click(function() {
+    $(".infoBoxSec").fadeIn();
+
+    $(".inoverInfo").hide();
+    $(".byuiInfo").hide();
+    $(".beachInfo").show();
+  })
+
+  $(".dismissInfo").click(function() {
+    $(".infoBoxSec").fadeOut();
+
+    $(".inoverInfo").hide();
+    $(".byuiInfo").hide();
+    $(".beachInfo").hide();
+  })
+
 
   // back to top animation by clicking topButton
   $(".topButton").click(function() {
