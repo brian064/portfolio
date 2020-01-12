@@ -256,6 +256,10 @@ nav li a:focus {
   background-image: url("homepage.png");
 }
 
+.skateco {
+  background-image: url("skateco.png");
+}
+
 .reme {
   background-image: url("reme.png");
 }

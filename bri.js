@@ -14,6 +14,7 @@ function parallaxMain() {
   $(".inoverInfo").hide();
   $(".byuiInfo").hide();
   $(".beachInfo").hide();
+  $(".skateInfo").hide();
 
   $(".inover").click(function() {
     $(".infoBoxSec").fadeIn();
@@ -37,6 +38,15 @@ function parallaxMain() {
     $(".inoverInfo").hide();
     $(".byuiInfo").hide();
     $(".beachInfo").show();
+  })
+
+  $(".skateco").click(function() {
+    $(".infoBoxSec").fadeIn();
+
+    $(".inoverInfo").hide();
+    $(".byuiInfo").hide();
+    $(".beachInfo").hide();
+    $(".skateInfo").show();
   })
 
   $(".dismissInfo").click(function() {
@@ -257,6 +267,17 @@ function parallaxMain() {
   $(".beachjam").mouseout(function () {
     $(".beachjam .caption").toggleClass("caption-visible");
     $(".beachjam .dimmer").toggleClass("dimmer-visible");
+  });
+
+    //beachjam
+  $(".skateco").mouseover(function () {
+    $(".skateco .caption").toggleClass("caption-visible");
+    $(".skateco .dimmer").toggleClass("dimmer-visible");
+  });
+
+  $(".skateco").mouseout(function () {
+    $(".skateco .caption").toggleClass("caption-visible");
+    $(".skateco .dimmer").toggleClass("dimmer-visible");
   });
 
     //coming soon
