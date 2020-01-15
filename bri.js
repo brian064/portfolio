@@ -22,6 +22,7 @@ function parallaxMain() {
     $(".inoverInfo").show();
     $(".byuiInfo").hide();
     $(".beachInfo").hide();
+    $(".skateInfo").hide();
   })
 
   $(".byui").click(function() {
@@ -30,6 +31,7 @@ function parallaxMain() {
     $(".inoverInfo").hide();
     $(".byuiInfo").show();
     $(".beachInfo").hide();
+    $(".skateInfo").hide();
   })
 
   $(".beachjam").click(function() {
@@ -38,6 +40,7 @@ function parallaxMain() {
     $(".inoverInfo").hide();
     $(".byuiInfo").hide();
     $(".beachInfo").show();
+    $(".skateInfo").hide();
   })
 
   $(".skateco").click(function() {
@@ -55,6 +58,7 @@ function parallaxMain() {
     $(".inoverInfo").hide();
     $(".byuiInfo").hide();
     $(".beachInfo").hide();
+    $(".skateInfo").hide();
   })
 
 
