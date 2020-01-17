@@ -15,6 +15,7 @@ function parallaxMain() {
   $(".byuiInfo").hide();
   $(".beachInfo").hide();
   $(".skateInfo").hide();
+  $(".ftcInfo").hide();
 
   $(".inover").click(function() {
     $(".infoBoxSec").fadeIn();
@@ -23,6 +24,7 @@ function parallaxMain() {
     $(".byuiInfo").hide();
     $(".beachInfo").hide();
     $(".skateInfo").hide();
+    $(".ftcInfo").hide();
   })
 
   $(".byui").click(function() {
@@ -32,6 +34,7 @@ function parallaxMain() {
     $(".byuiInfo").show();
     $(".beachInfo").hide();
     $(".skateInfo").hide();
+    $(".ftcInfo").hide();
   })
 
   $(".beachjam").click(function() {
@@ -41,6 +44,7 @@ function parallaxMain() {
     $(".byuiInfo").hide();
     $(".beachInfo").show();
     $(".skateInfo").hide();
+    $(".ftcInfo").hide();
   })
 
   $(".skateco").click(function() {
@@ -50,6 +54,17 @@ function parallaxMain() {
     $(".byuiInfo").hide();
     $(".beachInfo").hide();
     $(".skateInfo").show();
+    $(".ftcInfo").hide();
+  })
+
+  $(".ftcEmp").click(function() {
+    $(".infoBoxSec").fadeIn();
+
+    $(".inoverInfo").hide();
+    $(".byuiInfo").hide();
+    $(".beachInfo").hide();
+    $(".skateInfo").hide();
+    $(".ftcInfo").show();
   })
 
   $(".dismissInfo").click(function() {
@@ -59,6 +74,7 @@ function parallaxMain() {
     $(".byuiInfo").hide();
     $(".beachInfo").hide();
     $(".skateInfo").hide();
+    $(".ftcInfo").hide();
   })
 
 
@@ -238,6 +254,17 @@ function parallaxMain() {
   $(".inover").mouseout(function () {
     $(".inover .caption").toggleClass("caption-visible");
     $(".inover .dimmer").toggleClass("dimmer-visible");
+  });
+
+    //ftcEmp
+  $(".ftcEmp").mouseover(function () {
+    $(".ftcEmp .caption").toggleClass("caption-visible");
+    $(".ftcEmp .dimmer").toggleClass("dimmer-visible");
+  });
+
+  $(".ftcEmp").mouseout(function () {
+    $(".ftcEmp .caption").toggleClass("caption-visible");
+    $(".ftcEmp .dimmer").toggleClass("dimmer-visible");
   });
 
     //reme

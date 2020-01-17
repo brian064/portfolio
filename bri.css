@@ -260,6 +260,10 @@ nav li a:focus {
   background-image: url("skateco.png");
 }
 
+.ftcEmp {
+  background-image: url("ftcEmp.png");
+}
+
 .reme {
   background-image: url("reme.png");
 }
